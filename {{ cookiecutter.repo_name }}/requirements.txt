@@ -1,13 +1,36 @@
 # local package
 -e .
 
+# analysis
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn
+lightgbm
+tensorflow
+torch
+
+# work
+ipython
+jupyter
+japanize-matplotlib
+
+# pypi
+wheel
+twine
+
 # external requirements
-click
+PyYAML
 Sphinx
+attrdict
+click
 coverage
-awscli
 flake8
+ipdb
 python-dotenv>=0.5.1
+sphinx_rtd_theme
+tqdm
 {% if cookiecutter.python_interpreter != 'python3' %}
 
 # backwards compatibility
